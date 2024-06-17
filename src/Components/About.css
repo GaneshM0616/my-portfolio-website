@@ -1,0 +1,85 @@
+.about-container{
+    margin-top: 190px;
+    position: relative;
+}
+
+.about-header p, .about-header h2{
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal-line{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 0.8px;
+    background-color: gray;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 4.5);
+}
+
+.about-header h2{
+    font-size: 1.8rem;
+}
+
+.about-header{
+    position: relative;
+    padding-top: 20px ;
+}
+
+.my-photo{
+    height: 256px;
+    width: 258px;
+    border-radius: 16px;
+}
+
+.personal-details{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    width: 1000px;
+    margin-top: 60px;
+    margin-left: 20%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card h3{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.card p{
+    margin-top:7px ;
+}
+
+.card i{
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.all-cards{
+    display: flex;
+    gap: 10px;
+    justify-content: baseline;
+}
+
+.card{
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.info{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 30px;
+}
